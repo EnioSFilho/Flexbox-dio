@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200&family=Montserrat:wght@100&family=Nanum+Gothic&family=Roboto:wght@100&family=Ubuntu:wght@300&display=swap');
+
+
+body{
+
+    margin: 0px;
+    padding: 0px;
+    font-family: Montserrat;
+}
+
+header{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    background-color: rgb(27, 27, 155);
+    color: white;
+    justify-content: space-around;
+}
+
+.menu{
+    padding: 10px;
+    display: flex;
+    gap:20px;
+    justify-content: center;
+    font-weight: bolder;
+}
+
+.menu li {
+
+   list-style: none;
+    color: white;
+    
+
+}
+.menu li a{
+
+    display: flex;
+    color: white;
+    text-decoration: none;
+    flex-direction: row;
+
+}
+.primeira-divisao{
+
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(27, 27, 155);
+    font-weight: bolder;
+}
+
+.primeira-divisao h1{
+
+    font-size: 60px;
+}
+.primeira-divisao a{
+
+    padding: 10px 40px;
+    border-radius: 50px;
+    color: white;
+    background-color: rgb(27, 27, 155);
+    text-decoration: none;
+    
+}
+.segunda-divisao{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.texto{
+
+    width: 600px;
+    
+}
+
+.texto h1{
+
+    color:rgb(27, 27, 155);
+font-size: 50px;
+font-weight: bolder;
+}
+.texto p{
+    color:rgb(27, 27, 155);
+    font-weight: bold;
+
+}
+.serv{
+    background:rgb(27, 27, 155); 
+    color: white;
+    font-size: 30px;
+    
+}
+.serv h2{
+    margin-left: 100px;
+    
+}
+
+.servicos{
+
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    
+}
+#btn{
+
+    background: white;
+    color:rgb(27, 27, 155); 
+    font-weight: bolder;
+    text-decoration: none;
+    border-radius: 50px;
+    
+}
+
+.ultima{
+
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    text-align: justify;
+}
+
+.ultima li{
+
+    list-style: none;
+    font-size: 20px;
+    color:rgb(27, 27, 155); 
+    font-weight: bolder;
+    width: 300px;
+    height: 30;
+}
+
+
+.victori{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#btnb{
+
+ 
+    background: rgb(27, 27, 155); 
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    border-radius: 30px;
+    text-align: center ;
+    padding: 10px;
+}
+#btnb1{
+
+    margin: 0px;
+    padding: 0px;
+    background: rgb(27, 27, 155); 
+    color: white;;
+}
+
+
+footer {
+
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    background: rgb(27, 27, 155); 
+    font-weight: bolder;
+}
